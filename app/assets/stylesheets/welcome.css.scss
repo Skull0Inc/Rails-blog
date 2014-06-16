@@ -3,26 +3,49 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-body{
-background-color:#2f2f2f;
 
-color:#eeeeee;
-}
+// A S S S E T S
 
-a{text-decoration: none;}
-
-#title-border{
-
-background-color:black;
-
-padding:4px;
-border:1px solid white;
-
+// F o n t s
+@font-face{
+font-family: "museosans";
+src: font-url('museosans-web.woff');
+src: font-url('museosans-web.woff') format('woff');
 }
 
 @font-face{
-font-family:"Times New Roman",Georgia,Serif;
+font-family: "KoolBean";
+src:font-url('KoolBean.ttf');
+src:font-url('KoolBean.ttf') format('truetype');
+}
 
+@font-face{
+font-family: "Aspire";
+src:font-url('Aspire-DemiBold.ttf');
+src:font-url('Aspire-DemiBold.ttf') format('truetype');
+}
+
+@font-face{
+font-family: "Candy";
+src:font-url('CANDY.otf');
+src:font-url('CANDY.otf') format('opentype');
+}
+
+@font-face{
+font-family: "SurfsUp";
+src:font-url('SurfsUp.TTF');
+src:font-url('SurfsUp.TTF') format('truetype');
+}
+
+// S E C T I O N S
+body{
+background-color:#2f2f2f;
+color:#eeeeee;
+}
+
+// H E A D I N G S 
+h1, h2, h3, h4{
+	
 }
 
 a:link{
@@ -32,13 +55,49 @@ a:hover{color:white;}
 
 
 
+// E L E M E N T S
+a{text-decoration: none;}
 
-h1{
-	color:#fb292d;
-	font-family:compass;
-		
-  span{
-    padding: 2px;
-	border: 1px dashed black;
+th{
+padding: 5px 10px 5px 10px;
+font-size:20px;
+color: #fb292d;
+}
+
+td{
+padding: 0px 10px 5px 10px;
+text-align:center;
+}
+
+/*
+td{
+background-color:black;
+border: 1px solid #dadbb1;
+}*/
+// C U S T O M:  Elements
+
+
+.welcome{
+	color: #fb292d;
+	font-family:"KoolBean";		
+	font-size:60px;
+	text-align:center;
+	div{
+	margin-left:auto;
+	margin-right:auto;
 	}
 }
+
+
+
+/*
+#title-border{
+background-color:black;
+
+padding:4px;
+border:1px solid white;
+}
+*/
+
+
+

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ // A S S S E T S
+ @font-face{
+ font-family: "museosans";
+ src: font-url(/assets/fonts/museosans-web.woff) unquote("format('woff')");
+ font-weight:normal;
+ font-style:none;
+ }

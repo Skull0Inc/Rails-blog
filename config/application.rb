@@ -12,6 +12,11 @@ module Blog
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    #below added from : http://stackoverflow.com/questions/19313287/font-face-at-rails-4-0-with-sass-url-not-found-for-custom-fonts
+    # Add the fonts path
+    config.assets.enabled = true
+    config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
